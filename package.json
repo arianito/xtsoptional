@@ -1,0 +1,28 @@
+{
+	"name": "xtsoptional",
+	"version": "1.0.1",
+	"description": "xts optional",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"test": "jest --watch",
+		"test:once": "jest"
+	},
+	"homepage": "https://github.com/xeuus/xtsoptional",
+	"author": "Aryan Alikhani",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/xeuus/xtsoptional.git"
+	},
+	"bugs": {
+		"url": "https://github.com/xeuus/xtsoptional/issues"
+	},
+	"devDependencies": {
+		"typescript": "^3.3.3333"
+	},
+	"dependencies": {
+		"@types/jest": "^24.0.11"
+	}
+}
